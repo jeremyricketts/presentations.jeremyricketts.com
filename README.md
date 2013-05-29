@@ -1,10 +1,10 @@
 # presentations.jeremyricketts.com
 
-A collection of my presentations. Built with reveal.js
+[http://presentations.jeremyricketts.com/](http://presentations.jeremyricketts.com/)
 
-Each presentation is in its own directory.
+A collection of my presentations. Built with reveal.js (below).
 
-Example:
+Each presentation is in its own directory and lives within a single index.html file. All reveal.js assets are referenced from the root. Assets for each presentation live in each presentation's directory in an `assets` folder.
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
 

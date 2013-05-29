@@ -1,0 +1,53 @@
+@import "compass"; // Gem.
+
+// Custom slide backgrounds work like this:
+// <section data-state="aquaaa">
+.aquaaa .reveal .state-background {
+	background:aqua;
+}
+.money .reveal .state-background {
+	background-image:url(/abtesting/img/money.png);
+	background-size: cover;
+}
+
+// Themes put things inside a .reveal wrapper
+.reveal {
+	.amp {
+		font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif !important;
+		font-style: italic !important;
+		font-weight: normal !important;
+	}
+	.soft {
+		@include opacity(.5);
+	}
+	.assumption {
+		font-family: monospace !important;
+		margin-bottom:.5em;
+	}
+	.cols2 {
+		box-sizing:border-box;
+		.col {
+			box-sizing:border-box;
+			float:left; width:50%;
+			padding:0 1em;
+			&.last {
+				border-left:2px solid #fff;
+			}
+		}
+	}
+	.cols3 {
+		@include clearfix;
+		box-sizing:border-box;
+		.col {
+			box-sizing:border-box;
+			float:left; width:33%;
+			padding:0 1em;
+			&.last {
+				border-left:2px solid #fff;
+			}
+		}
+	}
+	.donate {
+		height:400px;
+	}
+}

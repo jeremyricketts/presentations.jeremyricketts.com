@@ -1,0 +1,63 @@
+/* line 5, ../scss/style.scss */
+.aquaaa .reveal .state-background {
+  background: aqua;
+}
+
+/* line 8, ../scss/style.scss */
+.money .reveal .state-background {
+  background-image: url(/abtesting/img/money.png);
+  background-size: cover;
+}
+
+/* line 15, ../scss/style.scss */
+.reveal .amp {
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif !important;
+  font-style: italic !important;
+  font-weight: normal !important;
+}
+/* line 20, ../scss/style.scss */
+.reveal .soft {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 23, ../scss/style.scss */
+.reveal .assumption {
+  font-family: monospace !important;
+  margin-bottom: .5em;
+}
+/* line 27, ../scss/style.scss */
+.reveal .cols2 {
+  box-sizing: border-box;
+}
+/* line 29, ../scss/style.scss */
+.reveal .cols2 .col {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding: 0 1em;
+}
+/* line 33, ../scss/style.scss */
+.reveal .cols2 .col.last {
+  border-left: 2px solid #fff;
+}
+/* line 38, ../scss/style.scss */
+.reveal .cols3 {
+  overflow: hidden;
+  *zoom: 1;
+  box-sizing: border-box;
+}
+/* line 41, ../scss/style.scss */
+.reveal .cols3 .col {
+  box-sizing: border-box;
+  float: left;
+  width: 33%;
+  padding: 0 1em;
+}
+/* line 45, ../scss/style.scss */
+.reveal .cols3 .col.last {
+  border-left: 2px solid #fff;
+}
+/* line 50, ../scss/style.scss */
+.reveal .donate {
+  height: 400px;
+}

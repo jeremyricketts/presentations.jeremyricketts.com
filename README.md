@@ -4,7 +4,7 @@
 
 A collection of my presentations. Built with reveal.js (below).
 
-Each presentation is in its own directory and lives within a single index.html file. All reveal.js assets are referenced from the root. Assets for each presentation live in each presentation's directory in an `assets` folder.
+Each presentation is in its own directory and lives within a single `index.html` file. All reveal.js assets are referenced from the root. Assets for each presentation live in each presentation's directory in an `img`, `js`, `scss`, `css` (etc) folders. Compass should be run from within the presentation folder.
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
 
